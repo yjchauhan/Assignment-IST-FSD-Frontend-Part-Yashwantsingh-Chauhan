@@ -1,0 +1,59 @@
+/* body section styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(197, 147, 73);
+    margin: 0;
+    padding: 0;
+}
+
+/* main section styling */
+main {
+    padding: 20px;
+}
+
+/* contact id styling */
+#contact {
+    padding: 20px;
+    border-radius: 0px;
+    color: black;
+    background-color: background-color;
+}
+
+/* heading section styling */
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* contact-form form elements styling */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* styling for text, email, textarea */
+input[type="text"], input[type="email"], textarea {
+    width: 20vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #e66464;
+}
+
+/* styling for submit */
+input[type="submit"] {
+    background-color: #ebbb87;
+    color: #fff;
+    width: 22vw;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Arial", sans-serif;
+}
+
+/* Hover Effect */
+input[type="submit"]:hover {
+    background-color: #d9b0b6;
+}  

@@ -1,0 +1,49 @@
+/* body section styling */
+body{
+    background-image: url("outside.jpg");
+    background-size: cover;
+    z-index: 0;
+}
+
+/* child elements styling */
+.child {
+    background-image: url("interior.jpg");
+    background-position: center;
+    height: 80vh;
+    width: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 20;
+    position: relative;
+    left: 30vh;
+    bottom: 5vh;
+}
+
+/* home elements styling */
+.home {
+    position: relative;
+}
+
+/* button elements styling */
+.button {
+    display: inline-block;
+    background-color: whitesmoke;
+    opacity: 95%;
+    color: purple;
+    z-index: 30;
+    border: 2px solid purple;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 1vh 18.9vh;
+    top: 94%;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Hover Effect */
+.button:hover {
+    background-color: goldenrod;
+}
