@@ -1,1 +1,1 @@
-# yjchauhan-Assignment-IST-FSD-Frontend-Part-Yashwantsingh-Chauhan
+# Assignment-IST-FSD-Frontend-Part-Yashwantsingh-Chauhan
